@@ -1,17 +1,31 @@
-import { View,Text } from 'react-native';
+import { View,Text,Image,ScrollView,TouchableOpacity } from 'react-native';
 import React from 'react'
 
 
-const Units = ({navigate,route}) => {
+const Units = ({navigation,route}) => {
 
-  const {unit} = route.params;
+const {unit} = route.params;
 
   console.log(unit);
   return (
-    <View>
-      
-      <Text>{unit.units.title}</Text>
-      <Text>{unit.units.description}</Text>
+    <View className=' w-full h-full bg-black flex flex-col justify-start items-center'>
+       <Image className=' w-60 h-[200px] my-10 object-scale-down' source = {require('../assets/loooogooo.png')} /> 
+      <Text className=' text-white text-lg font-extrabold'>{unit.units.title}</Text>
+      <Text className=' text-white text-sm py-3'>{unit.units.description}</Text>
+      <ScrollView horizontal={true} className=' flex flex-row gap-5'>
+{
+  unit.units.lessons.map((item,index) =>{
+    return(
+      <TouchableOpacity key={index}  onPress={()=> navigation.navigate('LessonScreen',{items: item})}  className=' w-96 h-4/5 bg-[#415a77] rounded-md flex flex-col items-center'>
+        <Text className=' font-bold text-2xl py-5 text-white'>{item.title}</Text>
+        <Text className=' font-extrabold text-3xl text-white py-3'>{item.topic}</Text>
+        <Text className=' text-white'>{item.date}</Text>
+      </TouchableOpacity>
+    )
+  })
+}
+
+</ScrollView>
     </View>
    
     // <View className=' w-screen h-2/3 flex flex-col gap-5 align-middle items-center'>
@@ -78,4 +92,4 @@ const Units = ({navigate,route}) => {
   )
 }
 
-export default Units
+export default Units;

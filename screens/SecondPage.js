@@ -79,7 +79,7 @@ const SecondPage = ({navigation}) => {
                 }
             },
             { id: 2,
-              title: "lesson one",
+              title: "lesson two",
               description: "Restoration Through Christ (Lesson 1-4)",
               date: "June 4",
               topic: "Philemon:Author's focus and major character",
@@ -131,7 +131,7 @@ const SecondPage = ({navigation}) => {
                 }
             },
             { id: 3,
-              title: "lesson one",
+              title: "lesson three",
               description: "Restoration Through Christ (Lesson 1-4)",
               date: "June 4",
               topic: "Philemon:Author's focus and major character",
@@ -184,7 +184,7 @@ const SecondPage = ({navigation}) => {
                 }
             },
             { id: 4,
-              title: "lesson one",
+              title: "lesson four",
               description: "Restoration Through Christ (Lesson 1-4)",
               date: "June 4",
               topic: "Philemon:Author's focus and major character",
@@ -246,7 +246,7 @@ const SecondPage = ({navigation}) => {
           description: "Restoration Through Christ (Lesson 1-4)",
           lessons: [
             { id: 1,
-              title: "lesson one",
+              title: "lesson two",
               description: "Restoration Through Christ (Lesson 1-4)",
               date: "June 4",
               topic: "Philemon:Author's focus and major character",
@@ -466,7 +466,7 @@ const SecondPage = ({navigation}) => {
           description: "Restoration Through Christ (Lesson 1-4)",
           lessons: [
             { id: 1,
-              title: "lesson one",
+              title: "lesson three",
               description: "Restoration Through Christ (Lesson 1-4)",
               date: "June 4",
               topic: "Philemon:Author's focus and major character",

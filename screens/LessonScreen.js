@@ -1,28 +1,14 @@
 
-import { React,View,Text,Image, ScrollView } from 'react'
-import { View } from 'react-native-gesture-handler'
-import { SafeAreaView } from 'react-native-safe-area-context'
+import React from 'react'
+import { Text, View,Image } from 'react-native'
 
-
-
-
-
-const LessonPage = ({route}) => {
-
+export const LessonScreen = ({route}) => {
   const {items} = route.params
-
   console.log(items);
-    return (
-        <SafeAreaView >
-        <ScrollView >
-           {/* <View className=' w-screen bg-[44A1A0] flex flex-col items-center'>
-           <Text className=' font-bold'>{items.content.qauter_theme}</Text>
-           <Text>{items.content.date}</Text>
-           <Text className=' font-bold'>Unit 1:{items.content.description}</Text>
-          
-           </View> */}
-    
-           <View className=' mx-auto my-5  w-80 h-40 flex flex-row justify-center items-center'>
+  return (
+    <View>
+      <Text>{items.title}</Text>
+      <View className=' mx-auto my-5  w-80 h-40 flex flex-row justify-center items-center'>
            <View className=' w-2/3 h-full justify-center items-center '>
            <Text className=' font-extrabold text-2xl italic'>LESSON</Text>
            <Text className=' font-extrabold text-7xl font-mono'>{items.content.lesson_number}</Text>
@@ -103,12 +89,29 @@ const LessonPage = ({route}) => {
          </View>
          </View>
         
-       
-        </ScrollView>
-        </SafeAreaView>
-       )
- 
+    </View>
+  )
 }
 
+// import { React,View, } from 'react'
 
-export default LessonPage
+
+
+
+
+
+// const LessonPage = ({route}) => {
+
+//  
+// console.log(items.title);
+//   console.log(items);
+//     return (
+//      <View>
+      
+//      </View>
+//        )
+ 
+// }
+
+
+// export default LessonPage;

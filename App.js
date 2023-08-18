@@ -5,8 +5,10 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import Homescreen from './screens/Homescreen';
 import SecondPage from './screens/SecondPage';
-import LessonPage from './screens/LessonPage';
 import Units from './screens/Units';
+import { LessonScreen } from './screens/LessonScreen';
+
+
 
 
 
@@ -19,7 +21,7 @@ const App = () => {
       <Stack.Navigator>
       <Stack.Screen name= 'FirstPage' component={Homescreen} />
      <Stack.Screen name="SecondPage" component={SecondPage} />
-     <Stack.Screen name='Lesson1' component={LessonPage} />
+     <Stack.Screen name='LessonScreen' component={LessonScreen}/>
      <Stack.Screen name='Units' component={Units} />
       </Stack.Navigator>
     </NavigationContainer>
