@@ -4,10 +4,12 @@ import {Image,TouchableOpacity, Text, View } from 'react-native';
 
 const Homescreen = ({navigation}) => {
   return (
-    <View className="flex-1 items-center justify-around bg-slate-100">
+    <View className="flex-1 items-center justify-around bg-white">
   
     
-      <Image className=' w-60 h-[200px] my-20 object-scale-down' source = {require('../assets/loooogooo.png')} /> 
+     <View className=' w-96 h-2/4 bg-[#255f85] flex justify-center items-center rounded-lg  '>
+     <Image className=' w-64 h-[250px] my-20 object-scale-down' source = {require('../assets/loooogooo.png')} /> 
+     </View>
     {/* <Image source = {require('../assets/frontimage2.jpg')} /> */}
     <Text className='text-2xl text-gray-400 font-extrabold'>THE GOSPEL FAITH MISSION INT'</Text>
     <Text className='font-bold text-lg text-gray-400'>Sunday School Manual</Text>
@@ -22,5 +24,5 @@ const Homescreen = ({navigation}) => {
   )
 }
 
-export default Homescreen
+export default Homescreen;
   

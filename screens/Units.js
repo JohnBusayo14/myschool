@@ -16,7 +16,7 @@ const {unit} = route.params;
 {
   unit.units.lessons.map((item,index) =>{
     return(
-      <TouchableOpacity key={index}  onPress={()=> navigation.navigate('LessonScreen',{items: item})}  className=' w-96 h-4/5 bg-[#415a77] rounded-md flex flex-col items-center'>
+      <TouchableOpacity key={index}  onPress={()=> navigation.navigate('Lessontab',{items: item})}  className=' w-96 h-4/5 bg-[#415a77] rounded-md flex flex-col items-center'>
         <Text className=' font-bold text-2xl py-5 text-white'>{item.title}</Text>
         <Text className=' font-extrabold text-3xl text-white py-3'>{item.topic}</Text>
         <Text className=' text-white'>{item.date}</Text>
