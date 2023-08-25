@@ -120,7 +120,7 @@ const SecondPage = ({navigation}) => {
               content: {
 
                 lesson_date: 'JUN. 04,2023',
-                lesson_number: 1,
+                lesson_number: 2,
                 description: "Restoration Through Christ (Lesson 1-4)",
                 title: "lesson one",
                 qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
@@ -224,7 +224,7 @@ const SecondPage = ({navigation}) => {
               content: {
 
                 lesson_date: 'JUN. 04,2023',
-                lesson_number: 1,
+                lesson_number: 3,
                 description: "Restoration Through Christ (Lesson 1-4)",
                 title: "lesson one",
                 qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
@@ -328,7 +328,7 @@ const SecondPage = ({navigation}) => {
               content: {
 
                 lesson_date: 'JUN. 04,2023',
-                lesson_number: 1,
+                lesson_number: 4,
                 description: "Restoration Through Christ (Lesson 1-4)",
                 title: "lesson one",
                 qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
@@ -430,7 +430,7 @@ const SecondPage = ({navigation}) => {
       },
       { id : 1,
         units: {
-          title: "Unit one",
+          title: "Unit Two",
           description: "Restoration Through Christ (Lesson 1-4)",
           lessons: [
             { id: 1,
@@ -470,14 +470,14 @@ const SecondPage = ({navigation}) => {
                 }
             },
             { id: 2,
-              title: "lesson two",
+              title: "lesson Two",
               description: "Restoration Through Christ (Lesson 1-4)",
               date: "June 4",
               topic: "Philemon:Author's focus and major character",
               content: {
 
                 lesson_date: 'JUN. 04,2023',
-                lesson_number: 1,
+                lesson_number: 2,
                 description: "Restoration Through Christ (Lesson 1-4)",
                 title: "lesson one",
                 qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
@@ -506,14 +506,14 @@ const SecondPage = ({navigation}) => {
                 }
             },
             { id: 3,
-              title: "lesson three",
+              title: "lesson Three",
               description: "Restoration Through Christ (Lesson 1-4)",
               date: "June 4",
               topic: "Philemon:Author's focus and major character",
               content: {
 
                 lesson_date: 'JUN. 04,2023',
-                lesson_number: 1,
+                lesson_number: 3,
                 description: "Restoration Through Christ (Lesson 1-4)",
                 title: "lesson one",
                 qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
@@ -542,14 +542,14 @@ const SecondPage = ({navigation}) => {
                 }
             },
             { id: 4,
-              title: "lesson four",
+              title: "lesson Four",
               description: "Restoration Through Christ (Lesson 1-4)",
               date: "June 4",
               topic: "Philemon:Author's focus and major character",
               content: {
 
                 lesson_date: 'JUN. 04,2023',
-                lesson_number: 1,
+                lesson_number: 4,
                 description: "Restoration Through Christ (Lesson 1-4)",
                 title: "lesson one",
                 qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
@@ -583,7 +583,7 @@ const SecondPage = ({navigation}) => {
       },
       { id : 1,
         units: {
-          title: "Unit one",
+          title: "Unit Three",
           description: "Restoration Through Christ (Lesson 1-4)",
           lessons: [
             { id: 1,
@@ -630,7 +630,7 @@ const SecondPage = ({navigation}) => {
               content: {
 
                 lesson_date: 'JUN. 04,2023',
-                lesson_number: 1,
+                lesson_number: 2,
                 description: "Restoration Through Christ (Lesson 1-4)",
                 title: "lesson one",
                 qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
@@ -666,7 +666,7 @@ const SecondPage = ({navigation}) => {
               content: {
 
                 lesson_date: 'JUN. 04,2023',
-                lesson_number: 1,
+                lesson_number: 3,
                 description: "Restoration Through Christ (Lesson 1-4)",
                 title: "lesson one",
                 qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
@@ -702,7 +702,7 @@ const SecondPage = ({navigation}) => {
               content: {
 
                 lesson_date: 'JUN. 04,2023',
-                lesson_number: 1,
+                lesson_number: 4,
                 description: "Restoration Through Christ (Lesson 1-4)",
                 title: "lesson one",
                 qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
