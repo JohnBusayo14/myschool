@@ -8,15 +8,15 @@ const {unit} = route.params;
 
   console.log(unit);
   return (
-    <View className=' w-full h-full bg-black flex flex-col justify-start items-center'>
-       <Image className=' w-60 h-[200px] my-10 object-scale-down' source = {require('../assets/loooogooo.png')} /> 
-      <Text className=' text-white text-lg font-extrabold'>{unit.units.title}</Text>
-      <Text className=' text-white text-sm py-3'>{unit.units.description}</Text>
+    <View className=' w-full h-full bg-white flex flex-col justify-start items-center'>
+       <Image className=' w-full h-40 my-10' source = {require('../assets/unitimage.jpeg')} /> 
+      <Text className=' text-black text-lg font-extrabold'>{unit.units.title}</Text>
+      <Text className=' text-black text-sm py-3'>{unit.units.description}</Text>
       <ScrollView horizontal={true} className=' flex flex-row gap-5'>
 {
   unit.units.lessons.map((item,index) =>{
     return(
-      <TouchableOpacity key={index}  onPress={()=> navigation.navigate('Lessontab',{items: item})}  className=' w-96 h-4/5 bg-[#415a77] rounded-md flex flex-col items-center'>
+      <TouchableOpacity key={index}  onPress={()=> navigation.navigate('Lessontab',{items: item})}  className=' w-96 h-[90%] bg-[#415a77] rounded-md flex flex-col items-center'>
         <Text className=' font-bold text-2xl py-5 text-white'>{item.title}</Text>
         <Text className=' font-extrabold text-3xl text-white py-3'>{item.topic}</Text>
         <Text className=' text-white'>{item.date}</Text>

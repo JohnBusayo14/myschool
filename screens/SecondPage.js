@@ -9,16 +9,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 
 
 const SecondPage = ({navigation}) => {
-  
- 
-    const [isModalVisible, setModalVisible] = useState(false);
-    const [unitData, setUnitData] = useState({})
-  
-    const toggleModal = (unit) => {
-      setModalVisible(!isModalVisible);
-      setUnitData(unit)
-    };
-    console.log(unitData);
+
    const units= [ 
       { id : 1,
         units: {
@@ -58,72 +49,68 @@ const SecondPage = ({navigation}) => {
                     part3_para1: "This part shows us that follow-up can potential sinner, a half-baked,",
                     part3_para2: "and a backslidden Christian outreach is casting the seed while follow-",
                     lesson_conclusion : "We forgive as Christians, necessarily because our offenders dese: ve",
+
+                  
+                    day1: "Monday",
+                    date1: "02/06/2020",
+                    topic1: "Use Opportunity Wisely",
+                    bible_text1 : "Philem. 1:9-10",
+                    lesson_word1: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis1: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point1 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day2: "Monday",
+                    date2: "02/06/2020",
+                    topic2: "Use Opportunity Wisely",
+                    bible_text2 : "Philem. 1:9-10",
+                    lesson_word2: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis2: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point2 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day3: "Monday",
+                    date3: "02/06/2020",
+                    topic3: "Use Opportunity Wisely",
+                    bible_text3 : "Philem. 1:9-10",
+                    lesson_word3: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis3: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point3 : "oday you will learn the secret recipe to a collapsible header ",
+
+
+                    day4: "Monday",
+                    date4: "02/06/2020",
+                    topic4: "Use Opportunity Wisely",
+                    bible_text4 : "Philem. 1:9-10",
+                    lesson_word4: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis4: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point4 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day5: "Monday",
+                    date5: "02/06/2020",
+                    topic5: "Use Opportunity Wisely",
+                    bible_text5 : "Philem. 1:9-10",
+                    lesson_word5: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis5: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point5 : "oday you will learn the secret recipe to a collapsible header ",
+
+
+                    day6: "Monday",
+                    date6: "02/06/2020",
+                    topic6: "Use Opportunity Wisely",
+                    bible_text6 : "Philem. 1:9-10",
+                    lesson_word6: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis6: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point6 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day7: "Monday",
+                    date7: "02/06/2020",
+                    topic7: "Use Opportunity Wisely",
+                    bible_text7 : "Philem. 1:9-10",
+                    lesson_word7: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis7: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point7 : "oday you will learn the secret recipe to a collapsible header ",
+
                 },
-                daily_reading :[
-                  {
-                    day: "Monday",
-                    date: "02/06/2020",
-                    topic: "Use Opportunity Wisely",
-                    bible_text : "Philem. 1:9-10",
-                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
-                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
-                    prayer_point : "oday you will learn the secret recipe to a collapsible header "
-                  },
-                  {
-                    day: "Monday",
-                    date: "02/06/2020",
-                    topic: "Use Opportunity Wisely",
-                    bible_text : "Philem. 1:9-10",
-                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
-                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
-                    prayer_point : "oday you will learn the secret recipe to a collapsible header "
-                  },
-                  {
-                    day: "Monday",
-                    date: "02/06/2020",
-                    topic: "Use Opportunity Wisely",
-                    bible_text : "Philem. 1:9-10",
-                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
-                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
-                    prayer_point : "oday you will learn the secret recipe to a collapsible header "
-                  },
-                  {
-                    day: "Monday",
-                    date: "02/06/2020",
-                    topic: "Use Opportunity Wisely",
-                    bible_text : "Philem. 1:9-10",
-                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
-                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
-                    prayer_point : "oday you will learn the secret recipe to a collapsible header "
-                  },
-                  {
-                    day: "Monday",
-                    date: "02/06/2020",
-                    topic: "Use Opportunity Wisely",
-                    bible_text : "Philem. 1:9-10",
-                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
-                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
-                    prayer_point : "oday you will learn the secret recipe to a collapsible header "
-                  },
-                  {
-                    day: "Monday",
-                    date: "02/06/2020",
-                    topic: "Use Opportunity Wisely",
-                    bible_text : "Philem. 1:9-10",
-                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
-                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
-                    prayer_point : "oday you will learn the secret recipe to a collapsible header "
-                  },
-                  {
-                    day: "Monday",
-                    date: "02/06/2020",
-                    topic: "Use Opportunity Wisely",
-                    bible_text : "Philem. 1:9-10",
-                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
-                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
-                    prayer_point : "oday you will learn the secret recipe to a collapsible header "
-                  }
-                ]
+            
             },
             { id: 2,
               title: "lesson two",
@@ -159,7 +146,75 @@ const SecondPage = ({navigation}) => {
                     part3_para2: "and a backslidden Christian outreach is casting the seed while follow-",
 
                     lesson_conclusion : "We forgive as Christians, necessarily because our offenders dese: ve",
-                }
+
+                    day: "Monday",
+                    date: "02/06/2020",
+                    topic: "Use Opportunity Wisely",
+                    bible_text : "Philem. 1:9-10",
+                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day1: "Monday",
+                    date1: "02/06/2020",
+                    topic1: "Use Opportunity Wisely",
+                    bible_text1 : "Philem. 1:9-10",
+                    lesson_word1: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis1: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point1 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day2: "Monday",
+                    date2: "02/06/2020",
+                    topic2: "Use Opportunity Wisely",
+                    bible_text2 : "Philem. 1:9-10",
+                    lesson_word2: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis2: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point2 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day3: "Monday",
+                    date3: "02/06/2020",
+                    topic3: "Use Opportunity Wisely",
+                    bible_text3 : "Philem. 1:9-10",
+                    lesson_word3: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis3: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point3 : "oday you will learn the secret recipe to a collapsible header ",
+
+
+                    day4: "Monday",
+                    date4: "02/06/2020",
+                    topic4: "Use Opportunity Wisely",
+                    bible_text4 : "Philem. 1:9-10",
+                    lesson_word4: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis4: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point4 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day5: "Monday",
+                    date5: "02/06/2020",
+                    topic5: "Use Opportunity Wisely",
+                    bible_text5 : "Philem. 1:9-10",
+                    lesson_word5: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis5: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point5 : "oday you will learn the secret recipe to a collapsible header ",
+
+
+                    day6: "Monday",
+                    date6: "02/06/2020",
+                    topic6: "Use Opportunity Wisely",
+                    bible_text6 : "Philem. 1:9-10",
+                    lesson_word6: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis6: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point6 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day7: "Monday",
+                    date7: "02/06/2020",
+                    topic7: "Use Opportunity Wisely",
+                    bible_text7 : "Philem. 1:9-10",
+                    lesson_word7: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis7: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point7 : "oday you will learn the secret recipe to a collapsible header ",
+
+                },
+              
             },
             { id: 3,
               title: "lesson three",
@@ -195,7 +250,75 @@ const SecondPage = ({navigation}) => {
                     part3_para2: "and a backslidden Christian outreach is casting the seed while follow-",
 
                     lesson_conclusion : "We forgive as Christians, necessarily because our offenders dese: ve",
-                }
+                   
+                    day: "Monday",
+                    date: "02/06/2020",
+                    topic: "Use Opportunity Wisely",
+                    bible_text : "Philem. 1:9-10",
+                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day1: "Monday",
+                    date1: "02/06/2020",
+                    topic1: "Use Opportunity Wisely",
+                    bible_text1 : "Philem. 1:9-10",
+                    lesson_word1: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis1: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point1 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day2: "Monday",
+                    date2: "02/06/2020",
+                    topic2: "Use Opportunity Wisely",
+                    bible_text2 : "Philem. 1:9-10",
+                    lesson_word2: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis2: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point2 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day3: "Monday",
+                    date3: "02/06/2020",
+                    topic3: "Use Opportunity Wisely",
+                    bible_text3 : "Philem. 1:9-10",
+                    lesson_word3: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis3: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point3 : "oday you will learn the secret recipe to a collapsible header ",
+
+
+                    day4: "Monday",
+                    date4: "02/06/2020",
+                    topic4: "Use Opportunity Wisely",
+                    bible_text4 : "Philem. 1:9-10",
+                    lesson_word4: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis4: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point4 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day5: "Monday",
+                    date5: "02/06/2020",
+                    topic5: "Use Opportunity Wisely",
+                    bible_text5 : "Philem. 1:9-10",
+                    lesson_word5: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis5: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point5 : "oday you will learn the secret recipe to a collapsible header ",
+
+
+                    day6: "Monday",
+                    date6: "02/06/2020",
+                    topic6: "Use Opportunity Wisely",
+                    bible_text6 : "Philem. 1:9-10",
+                    lesson_word6: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis6: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point6 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day7: "Monday",
+                    date7: "02/06/2020",
+                    topic7: "Use Opportunity Wisely",
+                    bible_text7 : "Philem. 1:9-10",
+                    lesson_word7: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis7: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point7 : "oday you will learn the secret recipe to a collapsible header ",
+
+                  },
+              
             },
             { id: 4,
               title: "lesson four",
@@ -231,7 +354,75 @@ const SecondPage = ({navigation}) => {
                     part3_para2: "and a backslidden Christian outreach is casting the seed while follow-",
 
                     lesson_conclusion : "We forgive as Christians, necessarily because our offenders dese: ve",
-                }
+
+                    day: "Monday",
+                    date: "02/06/2020",
+                    topic: "Use Opportunity Wisely",
+                    bible_text : "Philem. 1:9-10",
+                    lesson_word: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day1: "Monday",
+                    date1: "02/06/2020",
+                    topic1: "Use Opportunity Wisely",
+                    bible_text1 : "Philem. 1:9-10",
+                    lesson_word1: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis1: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point1 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day2: "Monday",
+                    date2: "02/06/2020",
+                    topic2: "Use Opportunity Wisely",
+                    bible_text2 : "Philem. 1:9-10",
+                    lesson_word2: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis2: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point2 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day3: "Monday",
+                    date3: "02/06/2020",
+                    topic3: "Use Opportunity Wisely",
+                    bible_text3 : "Philem. 1:9-10",
+                    lesson_word3: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis3: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point3 : "oday you will learn the secret recipe to a collapsible header ",
+
+
+                    day4: "Monday",
+                    date4: "02/06/2020",
+                    topic4: "Use Opportunity Wisely",
+                    bible_text4 : "Philem. 1:9-10",
+                    lesson_word4: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis4: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point4 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day5: "Monday",
+                    date5: "02/06/2020",
+                    topic5: "Use Opportunity Wisely",
+                    bible_text5 : "Philem. 1:9-10",
+                    lesson_word5: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis5: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point5 : "oday you will learn the secret recipe to a collapsible header ",
+
+
+                    day6: "Monday",
+                    date6: "02/06/2020",
+                    topic6: "Use Opportunity Wisely",
+                    bible_text6 : "Philem. 1:9-10",
+                    lesson_word6: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis6: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point6 : "oday you will learn the secret recipe to a collapsible header ",
+
+                    day7: "Monday",
+                    date7: "02/06/2020",
+                    topic7: "Use Opportunity Wisely",
+                    bible_text7 : "Philem. 1:9-10",
+                    lesson_word7: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
+                    point_of_emphasis7: " Not to worry because today you will learn the secret recipe to a collapsible header",
+                    prayer_point7 : "oday you will learn the secret recipe to a collapsible header ",
+
+                },
+               
             },
            
           ]
