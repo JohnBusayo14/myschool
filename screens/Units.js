@@ -1,5 +1,6 @@
 import { View,Text,Image,ScrollView,TouchableOpacity } from 'react-native';
 import React from 'react'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
 const Units = ({navigation,route}) => {
@@ -8,16 +9,21 @@ const {unit} = route.params;
 
   console.log(unit);
   return (
-    <View className=' w-full h-full bg-white flex flex-col justify-start items-center'>
+    <View className=' w-full h-full bg-[#000000] flex flex-col justify-start items-center'>
+
+<View className=' w-full h-14 flex flex-row items-center pl-2 pt-6 '>
+<MaterialCommunityIcons name="arrow-left" size={30} color='#fb8500'onPress={() => navigation.goBack()} />
+</View>
+
        <Image className=' w-full h-40 my-10' source = {require('../assets/unitimage.jpeg')} /> 
-      <Text className=' text-black text-lg font-extrabold'>{unit.units.title}</Text>
-      <Text className=' text-black text-sm py-3'>{unit.units.description}</Text>
+      <Text className=' text-white text-xl font-extrabold'>{unit.units.title}</Text>
+      <Text className=' text-white text-sm py-3'>{unit.units.description}</Text>
       <ScrollView horizontal={true} className='w-full h-1/2 flex flex-row gap-5'>
 {
   unit.units.lessons.map((item,index) =>{
     return(
       <TouchableOpacity key={index}  onPress={()=> navigation.navigate('Lessontab',{items: item})}  className=' w-80 h-[90%] bg-[#415a77] rounded-md flex flex-col items-center'>
-        <Text className=' font-bold text-2xl py-5 text-white'>{item.title}</Text>
+        <Text className=' font-bold text-3xl py-5 text-white'>{item.title}</Text>
         <Text className=' font-extrabold text-3xl text-white py-3'>{item.topic}</Text>
         <Text className=' text-white'>{item.date}</Text>
       </TouchableOpacity>

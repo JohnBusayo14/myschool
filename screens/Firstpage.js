@@ -8,71 +8,121 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 
 export const Firstpage = ({navigation}) => {
   return (
-<SafeAreaView>
-<View className=' w-full flex flex-row justify-between h-20 items-center px-5 bg-[]'>
-<MaterialCommunityIcons name="arrow-left-circle-outline" size={40} color='#255f85'  onPress={() => navigation.navigate('FirstPage')} />
-<Text className=' text-center text-4xl font-extrabold'></Text>
+<SafeAreaView className=' bg-[#000000]'>
+<View className=' w-full h-14 flex flex-row items-center pl-2'>
+<MaterialCommunityIcons name="arrow-left" size={30} color='#fb8500'  onPress={() => navigation.navigate('FirstPage')} />
+<Text className=' capitalize text-2xl text-white font-semibold px-10'>Choose Category</Text>
 </View>
 <ScrollView>
 
-<ImageBackground  source={require('../assets/kidss.jpg')} className='w-[90%] m-auto rounded-lg h-[250px] flex flex-row mb-5 flex-1 items-center justify-center bg-cover'>  
-<View>
-<Text className=' text-3xl font-bold text-white'>Children</Text>
-<View className=' w-[50px] h-[50px] rounded-full flex justify-center items-center bg-[#fca311]'>
-<MaterialCommunityIcons name="arrow-right" size={50} color='white'  onPress={() => navigation.navigate('SecondPage')} />
+<View className=' w-[90%] h-60 bg-[#415a77] flex flex-col m-auto rounded-xl my-3'>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Category: </Text>
+  <Text className=' text-white font-semibold text-lg'>Children </Text>
 </View>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Age: </Text>
+  <Text className=' text-white font-semibold text-lg'>1-8</Text>
 </View>
-</ImageBackground>
 
-<ImageBackground  source={require('../assets/interm.jpg')} className='w-[90%] m-auto rounded-lg h-[250px] flex flex-row mb-5 flex-1 items-center justify-center bg-cover'>  
-<View>
-<Text className=' text-3xl font-bold text-white'>Intermediate</Text>
-<View className=' w-[50px] h-[50px] rounded-full flex justify-center items-center bg-[#fca311]'>
-<MaterialCommunityIcons name="arrow-right" size={50} color='white'  onPress={() => navigation.navigate('Intermediate')} />
-</View>
-</View>
-</ImageBackground>
+<View className=' w-full flex flex-row justify-between p-3  items-center'>
+<Image className=' w-28 h-28 rounded-full'  source={require('../assets/kidss.jpg')}/> 
+<MaterialCommunityIcons name="arrow-right" size={30} color='#fb8500'  onPress={() => navigation.navigate('Kid')} />
 
-<ImageBackground  source={require('../assets/youth2.jpg')} className='w-[90%] m-auto rounded-lg h-[250px] flex flex-row mb-5 flex-1 items-center justify-center bg-cover'>  
-<View>
-<Text className=' text-3xl font-bold text-white'>Youth English</Text>
-<View className=' w-[50px] h-[50px] rounded-full flex justify-center items-center bg-[#fca311]'>
-<MaterialCommunityIcons name="arrow-right" size={50} color='white'  onPress={() => navigation.navigate('Intermediate')} />
 </View>
-</View>
-</ImageBackground>
 
-<ImageBackground  source={require('../assets/youth2.jpg')} className='w-[90%] m-auto rounded-lg h-[250px] flex flex-row mb-5 flex-1 items-center justify-center bg-cover'>  
-<View>
-<Text className=' text-3xl font-bold text-white'>Intermediate</Text>
-<View className=' w-[50px] h-[50px] rounded-full flex justify-center items-center bg-[#fca311]'>
-<MaterialCommunityIcons name="arrow-right" size={50} color='white'  onPress={() => navigation.navigate('Intermediate')} />
 </View>
+
+<View className=' w-[90%] h-60 bg-[#415a77] flex flex-col m-auto rounded-xl my-3'>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Category: </Text>
+  <Text className=' text-white font-semibold text-lg'>Children </Text>
 </View>
-</ImageBackground>
-
-
-
-
-<ImageBackground  source={require('../assets/adult2.jpg')} className='w-[90%] m-auto rounded-lg h-[250px] flex flex-row mb-5 flex-1 items-center justify-center bg-cover'>  
-<View>
-<Text className=' text-3xl font-bold text-white'>Intermediate</Text>
-<View className=' w-[50px] h-[50px] rounded-full flex justify-center items-center bg-[#fca311]'>
-<MaterialCommunityIcons name="arrow-right" size={50} color='white'  onPress={() => navigation.navigate('Intermediate')} />
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Age: </Text>
+  <Text className=' text-white font-semibold text-lg'>8-18</Text>
 </View>
-</View>
-</ImageBackground>
 
-<ImageBackground  source={require('../assets/adult2.jpg')} className='w-[90%] m-auto rounded-lg h-[250px] flex flex-row mb-5 flex-1 items-center justify-center bg-cover'>  
-<View>
-<Text className=' text-3xl font-bold text-white'>Intermediate</Text>
-<View className=' w-[50px] h-[50px] rounded-full flex justify-center items-center bg-[#fca311]'>
-<MaterialCommunityIcons name="arrow-right" size={50} color='white'  onPress={() => navigation.navigate('Intermediate')} />
-</View>
-</View>
-</ImageBackground>
+<View className=' w-full flex flex-row justify-between p-3  items-center'>
+<Image className=' w-28 h-28 rounded-full'  source={require('../assets/interm.jpg')}/> 
+<MaterialCommunityIcons name="arrow-right" size={30} color='#fb8500'  onPress={() => navigation.navigate('Intermediate')} />
 
-    </ScrollView>
+</View>
+
+</View>
+
+<View className=' w-[90%] h-60 bg-[#415a77] flex flex-col m-auto rounded-xl my-3'>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Category: </Text>
+  <Text className=' text-white font-semibold text-lg'>Youth English </Text>
+</View>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Age: </Text>
+  <Text className=' text-white font-semibold text-lg'>18-30</Text>
+</View>
+
+<View className=' w-full flex flex-row justify-between p-3  items-center'>
+<Image className=' w-28 h-28 rounded-full'  source={require('../assets/interm.jpg')}/> 
+<MaterialCommunityIcons name="arrow-right" size={30} color='#fb8500'  onPress={() => navigation.navigate('Youth_english')} />
+
+</View>
+
+</View>
+
+<View className=' w-[90%] h-60 bg-[#415a77] flex flex-col m-auto rounded-xl my-3'>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Category: </Text>
+  <Text className=' text-white font-semibold text-lg'>Youth Yoruba </Text>
+</View>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Age: </Text>
+  <Text className=' text-white font-semibold text-lg'>18-30</Text>
+</View>
+
+<View className=' w-full flex flex-row justify-between p-3  items-center'>
+<Image className=' w-28 h-28 rounded-full' source={require('../assets/youth2.jpg')}/> 
+<MaterialCommunityIcons name="arrow-right" size={30} color='#fb8500'  onPress={() => navigation.navigate('Youth_yoruba')} />
+
+</View>
+
+</View>
+
+<View className=' w-[90%] h-60 bg-[#415a77] flex flex-col m-auto rounded-xl my-3'>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Category: </Text>
+  <Text className=' text-white font-semibold text-lg'>Adult English </Text>
+</View>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Age: </Text>
+  <Text className=' text-white font-semibold text-lg'>30 above</Text>
+</View>
+
+<View className=' w-full flex flex-row justify-between p-3  items-center'>
+<Image className=' w-28 h-28 rounded-full'  source={require('../assets/youth2.jpg')}/> 
+<MaterialCommunityIcons name="arrow-right" size={30} color='#fb8500'  onPress={() => navigation.navigate('Adult_english')} />
+
+</View>
+
+</View>
+
+<View className=' w-[90%] h-60 bg-[#415a77] flex flex-col m-auto rounded-xl my-3 mb-20'>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Category: </Text>
+  <Text className=' text-white font-semibold text-lg'>Adult Yoruba </Text>
+</View>
+<View className=' w-full flex flex-row justify-between p-3'>
+  <Text className=' text-white font-semibold text-xl'>Age: </Text>
+  <Text className=' text-white font-semibold text-lg'>30 above</Text>
+</View>
+
+<View className=' w-full flex flex-row justify-between p-3  items-center'>
+<Image className=' w-28 h-28 rounded-full'  source={require('../assets/adult2.jpg')}/> 
+<MaterialCommunityIcons name="arrow-right" size={30} color='#fb8500'  onPress={() => navigation.navigate('Adult_yoruba')} />
+
+</View>
+
+</View>
+</ScrollView>
    </SafeAreaView>
    
   )

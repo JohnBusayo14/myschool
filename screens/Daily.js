@@ -40,13 +40,13 @@ export const Daily = ({route}) => {
 
   return (
 
-    <SafeAreaView>
-       <ScrollView>
+    <SafeAreaView className=' w-full h-full bg-[#000000]'>
+       <ScrollView >
      <View>
     
      
-     <View className=' w-96 flex flex-col mx-auto mt-5'>
-<TouchableOpacity onPress={toggleExpandedmo} className=' w-ful bg-[#255f85] my-5 rounded-lg'>
+     <View className=' w-[90%] flex flex-col mx-auto mt-5'>
+<TouchableOpacity onPress={toggleExpandedmo} className=' w-full bg-[#415a77] my-2 rounded-lg'>
 <View className=' w-full h-28 flex justify-center items-center'>
 <Text className=' font-extrabold text-2xl text-white'>{item.content.day1}</Text>
 <Text className=' text-white font-bold text-xl'>{item.content.date1}</Text>
@@ -63,8 +63,8 @@ export const Daily = ({route}) => {
 </View>
 )}
 </View>
-<View className=' w-96 flex flex-col mx-auto mt-5'>
-<TouchableOpacity onPress={toggleExpandedte} className=' w-ful bg-[#255f85] my-5 rounded-lg'>
+<View className=' w-[90%] flex flex-col mx-auto mt-5'>
+<TouchableOpacity onPress={toggleExpandedte} className=' w-ful bg-[#415a77] my-2 rounded-lg'>
 <View className=' w-full h-28 flex justify-center items-center'>
 <Text className=' font-extrabold text-2xl text-white'>{item.content.day1}</Text>
 <Text className=' text-white font-bold text-xl'>{item.content.date1}</Text>
@@ -81,8 +81,8 @@ export const Daily = ({route}) => {
 </View>
 )}
 </View>
-<View className=' w-96 flex flex-col mx-auto mt-5'>
-<TouchableOpacity onPress={toggleExpandedwe} className=' w-ful bg-[#255f85] my-5 rounded-lg'>
+<View className=' w-[90%] flex flex-col mx-auto mt-5'>
+<TouchableOpacity onPress={toggleExpandedwe} className=' w-ful bg-[#415a77] my-2 rounded-lg'>
 <View className=' w-full h-28 flex justify-center items-center'>
 <Text className=' font-extrabold text-2xl text-white'>{item.content.day1}</Text>
 <Text className=' text-white font-bold text-xl'>{item.content.date1}</Text>
@@ -99,8 +99,8 @@ export const Daily = ({route}) => {
 </View>
 )}
 </View>
-<View className=' w-96 flex flex-col mx-auto mt-5'>
-<TouchableOpacity onPress={toggleExpandedth} className=' w-ful bg-[#255f85] my-5 rounded-lg'>
+<View className=' w-[90%] flex flex-col mx-auto mt-5'>
+<TouchableOpacity onPress={toggleExpandedth} className=' w-ful bg-[#415a77] my-2 rounded-lg'>
 <View className=' w-full h-28 flex justify-center items-center'>
 <Text className=' font-extrabold text-2xl text-white'>{item.content.day1}</Text>
 <Text className=' text-white font-bold text-xl'>{item.content.date1}</Text>
@@ -117,8 +117,8 @@ export const Daily = ({route}) => {
 </View>
 )}
 </View>
-<View className=' w-96 flex flex-col mx-auto mt-5'>
-<TouchableOpacity onPress={toggleExpandedfr} className=' w-ful bg-[#255f85] my-5 rounded-lg'>
+<View className=' w-[90%] flex flex-col mx-auto mt-5'>
+<TouchableOpacity onPress={toggleExpandedfr} className=' w-ful bg-[#415a77] my-2 rounded-lg'>
 <View className=' w-full h-28 flex justify-center items-center'>
 <Text className=' font-extrabold text-2xl text-white'>{item.content.day1}</Text>
 <Text className=' text-white font-bold text-xl'>{item.content.date1}</Text>
@@ -135,8 +135,8 @@ export const Daily = ({route}) => {
 </View>
 )}
 </View>
-<View className=' w-96 flex flex-col mx-auto mt-5'>
-<TouchableOpacity onPress={toggleExpandedsa} className=' w-ful bg-[#255f85] my-5 rounded-lg'>
+<View className=' w-[90%] flex flex-col mx-auto mt-5'>
+<TouchableOpacity onPress={toggleExpandedsa} className=' w-ful bg-[#415a77] my-2 rounded-lg'>
 <View className=' w-full h-28 flex justify-center items-center'>
 <Text className=' font-extrabold text-2xl text-white'>{item.content.day1}</Text>
 <Text className=' text-white font-bold text-xl'>{item.content.date1}</Text>
@@ -153,8 +153,8 @@ export const Daily = ({route}) => {
 </View>
 )}
 </View>
-<View className=' w-96 flex flex-col mx-auto mt-5'>
-<TouchableOpacity onPress={toggleExpandedsun} className=' w-ful bg-[#255f85] my-5 rounded-lg'>
+<View className=' w-[90%] flex flex-col mx-auto mt-5'>
+<TouchableOpacity onPress={toggleExpandedsun} className=' w-ful bg-[#415a77] my-2 rounded-lg'>
 <View className=' w-full h-28 flex justify-center items-center'>
 <Text className=' font-extrabold text-2xl text-white'>{item.content.day1}</Text>
 <Text className=' text-white font-bold text-xl'>{item.content.date1}</Text>
