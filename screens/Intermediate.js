@@ -1175,7 +1175,7 @@ const Intermediate = ({navigation}) => {
       return (
         <SafeAreaView className=' bg-[#000000]' >
 <View className=' w-full h-14 flex flex-row items-center pl-2'>
-<MaterialCommunityIcons name="arrow-left" size={30} color='#fb8500'  onPress={() => navigation.navigate('FirstPage')} />
+<MaterialCommunityIcons name="arrow-left" size={30} color='#fb8500'  onPress={() => navigation.goBack()} />
 </View>
         <ScrollView className=' w-full h-full flex flex-col'>
           

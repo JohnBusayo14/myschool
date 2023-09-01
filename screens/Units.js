@@ -7,7 +7,7 @@ const Units = ({navigation,route}) => {
 
 const {unit} = route.params;
 
-  console.log(unit);
+
   return (
     <View className=' w-full h-full bg-[#000000] flex flex-col justify-start items-center'>
 

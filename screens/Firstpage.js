@@ -36,7 +36,7 @@ export const Firstpage = ({navigation}) => {
 <View className=' w-[90%] h-60 bg-[#415a77] flex flex-col m-auto rounded-xl my-3'>
 <View className=' w-full flex flex-row justify-between p-3'>
   <Text className=' text-white font-semibold text-xl'>Category: </Text>
-  <Text className=' text-white font-semibold text-lg'>Children </Text>
+  <Text className=' text-white font-semibold text-lg'>Intermediate</Text>
 </View>
 <View className=' w-full flex flex-row justify-between p-3'>
   <Text className=' text-white font-semibold text-xl'>Age: </Text>
@@ -62,7 +62,7 @@ export const Firstpage = ({navigation}) => {
 </View>
 
 <View className=' w-full flex flex-row justify-between p-3  items-center'>
-<Image className=' w-28 h-28 rounded-full'  source={require('../assets/interm.jpg')}/> 
+<Image className=' w-28 h-28 rounded-full'  source={require('../assets/youth6.jpg')}/> 
 <MaterialCommunityIcons name="arrow-right" size={30} color='#fb8500'  onPress={() => navigation.navigate('Youth_english')} />
 
 </View>
@@ -80,7 +80,7 @@ export const Firstpage = ({navigation}) => {
 </View>
 
 <View className=' w-full flex flex-row justify-between p-3  items-center'>
-<Image className=' w-28 h-28 rounded-full' source={require('../assets/youth2.jpg')}/> 
+<Image className=' w-28 h-28 rounded-full' source={require('../assets/youth6.jpg')}/> 
 <MaterialCommunityIcons name="arrow-right" size={30} color='#fb8500'  onPress={() => navigation.navigate('Youth_yoruba')} />
 
 </View>
@@ -98,7 +98,7 @@ export const Firstpage = ({navigation}) => {
 </View>
 
 <View className=' w-full flex flex-row justify-between p-3  items-center'>
-<Image className=' w-28 h-28 rounded-full'  source={require('../assets/youth2.jpg')}/> 
+<Image className=' w-28 h-28 rounded-full'  source={require('../assets/adult2.jpg')}/> 
 <MaterialCommunityIcons name="arrow-right" size={30} color='#fb8500'  onPress={() => navigation.navigate('Adult_english')} />
 
 </View>

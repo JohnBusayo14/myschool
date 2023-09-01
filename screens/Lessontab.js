@@ -8,7 +8,7 @@ const Tab = createMaterialBottomTabNavigator();
 
 export const Lessontab = ({route}) => {
   const {items} = route.params;
-  console.log(items);
+
 
     return (
 

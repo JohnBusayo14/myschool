@@ -8,18 +8,18 @@ const Kid = ({navigation}) => {
         { id : 1,
           units: {
             title: "Unit one",
-            description: "Restoration Through Christ Kids (Lesson 1-4)",
+            description: "Restoration Through Christ for Kids (Lesson 1-4)",
             lessons: [
               { id: 1,
                 title: "lesson one",
-                description: "Restoration Through Christ kids (Lesson 1-4)",
+                description: "Restoration Through Christ  for kids (Lesson 1-4)",
                 date: "June 4",
                 topic: "Philemon:Author's focus and major character kids",
                 content: {
   
                   lesson_date: 'JUN. 04,2023',
                   lesson_number: 1,
-                  description: "Restoration Through Christ (Lesson 1-4)",
+                  description: "Restoration Through Christ for kids (Lesson 1-4)",
                   title: "lesson one",
                   qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
                     suggestedHymns: "",
@@ -54,7 +54,7 @@ const Kid = ({navigation}) => {
                       prayer_point1 : "oday you will learn the secret recipe to a collapsible header ",
   
                       day2: "Tuesday",
-                      date2: "02/06/2020",
+                      date2: "03/06/2020",
                       topic2: "Use Opportunity Wisely",
                       bible_text2 : "Philem. 1:9-10",
                       lesson_word2: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
@@ -62,7 +62,7 @@ const Kid = ({navigation}) => {
                       prayer_point2 : "oday you will learn the secret recipe to a collapsible header ",
   
                       day3: "Webnesday",
-                      date3: "02/06/2020",
+                      date3: "04/06/2020",
                       topic3: "Use Opportunity Wisely",
                       bible_text3 : "Philem. 1:9-10",
                       lesson_word3: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
@@ -71,7 +71,7 @@ const Kid = ({navigation}) => {
   
   
                       day4: "Thursday",
-                      date4: "02/06/2020",
+                      date4: "05/06/2020",
                       topic4: "Use Opportunity Wisely",
                       bible_text4 : "Philem. 1:9-10",
                       lesson_word4: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
@@ -79,7 +79,7 @@ const Kid = ({navigation}) => {
                       prayer_point4 : "oday you will learn the secret recipe to a collapsible header ",
   
                       day5: "Friday",
-                      date5: "02/06/2020",
+                      date5: "06/06/2020",
                       topic5: "Use Opportunity Wisely",
                       bible_text5 : "Philem. 1:9-10",
                       lesson_word5: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
@@ -88,7 +88,7 @@ const Kid = ({navigation}) => {
   
   
                       day6: "Saturday",
-                      date6: "02/06/2020",
+                      date6: "07/06/2020",
                       topic6: "Use Opportunity Wisely",
                       bible_text6 : "Philem. 1:9-10",
                       lesson_word6: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
@@ -96,7 +96,7 @@ const Kid = ({navigation}) => {
                       prayer_point6 : "oday you will learn the secret recipe to a collapsible header ",
   
                       day7: "Sunday",
-                      date7: "02/06/2020",
+                      date7: "08/06/2020",
                       topic7: "Use Opportunity Wisely",
                       bible_text7 : "Philem. 1:9-10",
                       lesson_word7: "Not to worry because today you will learn the secret recipe to a collapsible header in pure JavaScript. With a mix of spices, some sugar, and a sprinkle of salt 🧂 Full ‘sauce’ code is available at the end of this articleFirst we need to define three constants in our react native component, theoretically these could be dynamic based on user settings for advanced collapsible headers, but in our example these values are constant.",
@@ -107,8 +107,8 @@ const Kid = ({navigation}) => {
               
               },
               { id: 2,
-                title: "lesson two",
-                description: "Restoration Through Christ (Lesson 1-4)",
+                title: "lesson Two",
+                description: "Bringing your friend to christ as a kid (Lesson 1-4)",
                 date: "June 5",
                 topic: "Philemon:Author's focus and major character",
                 content: {
@@ -116,10 +116,10 @@ const Kid = ({navigation}) => {
                   lesson_date: 'JUN. 04,2023',
                   lesson_number: 2,
                   description: "Restoration Through Christ (Lesson 1-4)",
-                  title: "lesson one",
+                  title: "lesson Two",
                   qauter_theme: "QUATER'S THEME:DEMONSTRATION OF THE CHRISTIAN LIFE",
-                    suggestedHymns: "",
-                    memoryVerse: "",
+                    suggestedHymns: "Hymn 59",
+                    memoryVerse:"Trust in the Lord with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths.",
                     suggested_hymns: "G.H.B 1,6",
                     devotional_reading: "Philem. 1:8-10",
                     topic_for_adults: "You Must Demontrate Christian Life",
@@ -204,9 +204,9 @@ const Kid = ({navigation}) => {
               },
               { id: 3,
                 title: "lesson three",
-                description: "Restoration Through Christ (Lesson 1-4)",
+                description: "Restoration Through Christ for kids (Lesson 1-4)",
                 date: "June 6",
-                topic: "Philemon:Author's focus and major character",
+                topic: "Kids are for christ",
                 content: {
   
                   lesson_date: 'JUN. 04,2023',
